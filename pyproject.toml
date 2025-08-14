@@ -38,4 +38,4 @@ where = ["src"]
 include = ["sam_loss*"]  # Keep the '*', otherwise submodules are not found
 
 [tool.setuptools.package-data]
-sam_loss = ["*.yaml",]
+sam_loss.sam2 = ["**/*.yaml"]
