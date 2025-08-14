@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sam_loss"  # DON'T FORGET TO REMOVE empty FROM git remote!!!
-version = "0.0.1"
+version = "0.0.2"
 description = "<<<ENTER_DESCRIPTION>>>"
 authors = [
     { name = "Tobias Kirschstein", email = "tobias.kirschstein@gmail.com" },
@@ -36,3 +36,6 @@ dev = [
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["sam_loss*"]  # Keep the '*', otherwise submodules are not found
+
+[tool.setuptools.package-data]
+sam_loss = ["*.yaml",]
