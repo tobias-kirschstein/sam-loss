@@ -38,4 +38,4 @@ where = ["src"]
 include = ["sam_loss*"]  # Keep the '*', otherwise submodules are not found
 
 [tool.setuptools.package-data]
-sam_loss.sam2 = ["**/*.yaml"]
+sam_loss = ["**/*.yaml"]  # Include SAM2 config files which are required for loading pre-trained models
