@@ -20,14 +20,14 @@ classifiers = [
 # urls = { Documentation = "<<<ENTER_LINK_TO_DOCUMENTATION>>>" }
 # Main dependencies
 dependencies = [
+    'hydra-core',
+    'omegaconf',
+    'iopath'
 ]
 
 [project.optional-dependencies]
 # Development packages, install via <<<PROJECT_NAME>>>[dev]
 dev = [
-    'hydra-core',
-    'omegaconf',
-    'iopath'
 ]
 
 [project.scripts]
