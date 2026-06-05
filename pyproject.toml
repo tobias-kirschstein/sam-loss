@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sam_loss"  # DON'T FORGET TO REMOVE empty FROM git remote!!!
-version = "0.0.2"
-description = "<<<ENTER_DESCRIPTION>>>"
+name = "sam_loss"
+version = "0.0.3"
+description = "Implementation of the SAM model as perceptual loss from the PercHead paper"
 authors = [
     { name = "Tobias Kirschstein", email = "tobias.kirschstein@gmail.com" },
 ]
