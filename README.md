@@ -2,6 +2,8 @@
 
 Still using LPIPS? Try our perceptual loss based on SAM2.1 for a more meaningful image supervision of your model!
 
+![](static/perceptual_losses_sam.jpg)
+
 Implementation from the paper *"PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing"* (CVPR '26).  
 [[Project Page]](https://antoniooroz.github.io/PercHead/)
 
