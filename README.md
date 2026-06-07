@@ -26,7 +26,7 @@ target_images = ... # torch.Tensor [B, 3, H, W] in [0, 1] range
 sam_loss = sam_criterion(predicted_images, target_images)
 ```
 
-
+<hr>
 
 If you find this SAM Perceptual Loss useful, please consider citing:
 ```bibtex
@@ -36,5 +36,16 @@ If you find this SAM Perceptual Loss useful, please consider citing:
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={4097--4108},
   year={2026}
+}
+```
+
+```bibtex
+@inproceedings{ravi2025sam,
+  title={Sam 2: Segment anything in images and videos},
+  author={Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and others},
+  booktitle={International Conference on Learning Representations},
+  volume={2025},
+  pages={28085--28128},
+  year={2025}
 }
 ```
